@@ -1,0 +1,12 @@
+  nether-is:
+    type: repetitive
+    cooldown: 4
+    repetitive_time: 10
+    conditions: 
+    - '%playerblock_inside% == NETHER_PORTAL'
+    actions:
+      default:
+      - 'wait_ticks: 30'
+      - 'console_command: title %player_name% times 20 20 20'
+      - 'wait_ticks: 5'
+      - 'console_command: title %player_name% title {"text":""}'
