@@ -7,7 +7,7 @@ Events:
     - '%playerblock_inside% == NETHER_PORTAL'
     actions:
       default:
-      - 'wait_ticks: 30'
+      - 'wait_ticks: 45'
       - 'console_command: title %player_name% times 20 20 20'
       - 'wait_ticks: 5'
       - 'console_command: title %player_name% title {"text":""}'
