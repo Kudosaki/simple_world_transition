@@ -1,6 +1,10 @@
 # simple_world_transition
 Just a simple method to change the world transition screen.
 
+`conditional_events.yml` goes into the ConditionalEvents/Events folder
+
+Resourcepack is required for the black transition screen.
+
 
 Required Plugin
 
